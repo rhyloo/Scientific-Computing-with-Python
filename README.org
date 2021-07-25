@@ -1,17 +1,71 @@
 * Scientific-Computing-with-Python
-  Projects for get the Scientific Computing with Python's certification in Freecodecamp.
+  :PROPERTIES:
+  :CUSTOM_ID: scientific-computing-with-python
+  :END:
+  Projects for get the Scientific Computing with Python's certification in [[www.freecodecamp.org][Freecodecamp]].
 ** DONE Arithmetic FormatterPassed
+   :PROPERTIES:
+   :CUSTOM_ID: arithmetic-formatterpassed
+   :END:
    Create a function that receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side.
 *** Files
-    - README.md
-    - test_module.py
-    - main.py
-    - arithmetic_arranger.py
-** TODO Time Calculator
+    :PROPERTIES:
+    :CUSTOM_ID: files
+    :END:
+
+#+name: sh-tree-arithmetic-formatter
+#+begin_src sh :results code :exports results
+tree -a boilerplate-arithmetic-formatter -I "*~|"
+#+end_src
+
+#+RESULTS: sh-tree-arithmetic-formatter
+#+begin_src sh
+boilerplate-arithmetic-formatter
+├── arithmetic_arranger.py
+├── main.py
+├── README.md
+└── test_module.py
+
+0 directories, 4 files
+#+end_src
+
+** DONE Time Calculator
+   :PROPERTIES:
+   :CUSTOM_ID: time-calculator
+   :END:
    Write a function named "add_time" that can add a duration to a start time and return the result.
-** TODO Budget App
+*** Files
+#+name: sh-tree-time-calculator
+#+begin_src sh :results code :exports results
+tree -a boilerplate-time-calculator -I "*~|"
+#+end_src
+
+#+RESULTS: sh-tree-time-calculator
+#+begin_src sh
+boilerplate-time-calculator
+├── main.py
+├── __pycache__
+│   └── time_calculator.cpython-38.pyc
+├── README.md
+├── .replit
+├── test_module.py
+└── time_calculator.py
+
+1 directory, 6 files
+#+end_src
+
+** TODO Budget App                                                 :noexport:
+   :PROPERTIES:
+   :CUSTOM_ID: budget-app
+   :END:
    Create a "Category" class that can be used to create different budget categories.
-** TODO Polygon Area Calculator
+** TODO Polygon Area Calculator                                    :noexport:
+   :PROPERTIES:
+   :CUSTOM_ID: polygon-area-calculator
+   :END:
    In this project you will use object oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes.
-** TODO Probability Calculator
+** TODO Probability Calculator                                     :noexport:
+   :PROPERTIES:
+   :CUSTOM_ID: probability-calculator
+   :END:
    Write a program to determine the approximate probability of drawing certain balls randomly from a hat.
