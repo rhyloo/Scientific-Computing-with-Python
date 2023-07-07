@@ -2,7 +2,7 @@
   :PROPERTIES:
   :CUSTOM_ID: scientific-computing-with-python
   :END:
-  Projects for get the Scientific Computing with Python's certification in [[www.freecodecamp.org][Freecodecamp]].
+  Projects to obtain the Scientific Computing with Python certification from [[www.freecodecamp.org][Freecodecamp]].
 ** DONE Arithmetic FormatterPassed
    :PROPERTIES:
    :CUSTOM_ID: arithmetic-formatterpassed
